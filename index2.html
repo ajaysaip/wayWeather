@@ -1,0 +1,33 @@
+<html>
+<head>
+<style>
+body {
+    background-image: url("gmaps.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    margin-right: 200px;
+	font:italic bold 12px/30px Georgia, serif;
+}
+form{
+	background-color: yellow;
+	width: 240px;
+	
+}
+
+</style>
+
+
+</head>
+
+<body>
+<form action="dbserver.php" method="post" >
+  Source:<br>
+  <input type="text" name="source" value=""><br>
+  Destination:<br>
+  <input type="text" name="destination" value=""><br>
+  <input type="submit" value="GET DIRECTIONS">
+  
+</form>
+<p id="demo"></p>
+</body>
+</html>
